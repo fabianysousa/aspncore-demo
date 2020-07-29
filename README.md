@@ -10,7 +10,7 @@
 
 ### ASP.NET vs ASP.NET core
 
-A ASP.NET e a ASP.NET core são ambas tecnologias utilizadas para aplicações web da Microsoft, porém essas tecnologias tem suas diferenças o que pesa como aspecto positivo e negativo para o desenvolvedor 
+A *ASP.NET* e a *ASP.NET core* são ambas tecnologias utilizadas para aplicações web da Microsoft, porém essas tecnologias tem suas diferenças o que pesa como aspecto positivo e negativo para o desenvolvedor.
 
 Principais diferenças:
 
@@ -24,6 +24,14 @@ Principais diferenças:
 
 
 Apesar da ASP.NET Core não possuir todos os componentes para a aplicação é possível instalar a parte fazendo uso de suporte e ferramentas de linha de comando como NET CLI, Yeoman entre outros.
+
+**Lista de outras opções de desenvolvimento e recomendações:**
+
+- **ASP .NET Web Forms** : Recomendado usar somente para manutenção.
+
+- **ASP .NET MVC** : Recomendado usar para aplicações para plataforma Windows.
+ 
+ - **ASP .NET Core** : Recomendado para desenvolvimento multiplataforma.
 
 ### Comandos SDK  e sdk-options
 
@@ -47,13 +55,14 @@ Comandos básciso aprendidos e utilizados na criação da Aplicação Web e da W
 *Yeoman* é um sistema para criação de templetes genéricos que permite a criação de qualquer tipo de aplicação. (Precisa do *Nodejs* e *NPM*).
 *NET CLI* é uma interface de linha de comando, uma ferramenta multiplataforma para o desenvolvimento de aplicativos.
 
+---
+
 ## ⚙️ Tecnologias utilizadas
 
 O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 - [C#](https://docs.microsoft.com/pt-br/dotnet/csharp/)
 - [.Net Core](https://github.com/dotnet/aspnetcore)
-- [Nodejs](https://nodejs.org/en/)
 - [NPM](https://www.npmjs.com/)
 - [Yeoman](https://yeoman.io/)
 - [.NET CLI](https://docs.microsoft.com/pt-br/dotnet/core/tools/)
